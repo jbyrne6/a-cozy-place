@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
 
-    <title>Hello, world!</title>
+    <title>A Cozy Place</title>
   </head>
   <body>
     <div class="bg">
@@ -28,7 +28,7 @@
                   <li>
                       <input type="text" id="musicInput" class="form-control" placeholder="youtube link" aria-label="youtube link" aria-describedby="basic-addon2">
                       <button type="button" id="submitMusic" class="btn btn-secondary">Change Music</button>
-                      <iframe id="embededMusic" width="350" height="250" class="embededMusic" src="https://www.youtube.com/embed/rLhrfCZROlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <iframe id="embededMusicID" width="350" height="250" class="embededMusic" src="https://www.youtube.com/embed/rLhrfCZROlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </li>
                   <li>
                     <button type="button" id="goFS" class="btn btn-secondary" onclick="toggleFullScreen()">Enter fullscreen</button>
@@ -37,21 +37,13 @@
           </nav>
 
           <div id="content">
-              <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
-                  <!-- <div class="container-fluid"> -->
-
-                      <button type="button" id="sidebarCollapse" class="btn btn-secondary">
-                          <i class="fas fa-align-left"></i>
-                          <span id="collapseSpan"><</span>
-                      </button>
-
-                  <!-- </div> -->
-              <!-- </nav> -->
+            <button type="button" id="sidebarCollapse" class="btn btn-secondary">
+                <span id="collapseSpan"><</span>
+            </button>
           </div>
 
       </div>
     </div>
-    <!-- <div class="bg"></div> -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

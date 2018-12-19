@@ -1,2 +1,5 @@
--make embeded video only appear when one is added
 -add icons to the sidebar toggle and fullscreen
+-make embeded video only appear when one is added
+-can upload images from your computer
+-can create an account
+-can make a "places" that save your images and music

@@ -7,7 +7,6 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $('#submitImage').on('click', function () {
-        // change the background image
         let imageLink = document.getElementById("imageInput").value;
         $('.bg').css('background-image', 'url(' + imageLink + ')');
     });
@@ -19,7 +18,8 @@ $(document).ready(function () {
         let musicLink = document.getElementById("musicInput").value;
         musicLink = musicLink.substring(musicLink.indexOf("=") + 1);
         musicLink = "https://www.youtube.com/embed/" + musicLink;
-        $('.embededMusic').css('src', musicLink);
+        alert(musicLink);
+        document.getElementById("embededMusicID").src=musicLink;
     });
 });
 

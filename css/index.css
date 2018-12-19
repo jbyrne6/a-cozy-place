@@ -28,7 +28,6 @@ body, html {
     min-width: 350px;
     max-width: 350px;
     background-color: rgba(128, 128, 128, .3);
-    /* opacity: 0.5; */
 }
 
 #sidebar.active {
@@ -52,6 +51,6 @@ body, html {
   margin-top: 20px;
 }
 
-#embededMusic {
+#embededMusicID {
   margin-top: 10px;
 }
