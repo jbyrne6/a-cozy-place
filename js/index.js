@@ -18,7 +18,6 @@ $(document).ready(function () {
         let musicLink = document.getElementById("musicInput").value;
         musicLink = musicLink.substring(musicLink.indexOf("=") + 1);
         musicLink = "https://www.youtube.com/embed/" + musicLink;
-        alert(musicLink);
         document.getElementById("embededMusicID").src=musicLink;
     });
 });
