@@ -1,0 +1,2 @@
+-make embeded video only appear when one is added
+-add icons to the sidebar toggle and fullscreen

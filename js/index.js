@@ -32,8 +32,10 @@ function toggleFullScreen() {
 
   if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
     requestFullScreen.call(docEl);
+    document.getElementById("goFS").innerHTML = "Exit Fullscreen";
   }
   else {
     cancelFullScreen.call(doc);
+    document.getElementById("goFS").innerHTML = "Enter Fullscreen";
   }
 }
